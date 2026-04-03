@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment variables - NEVER commit credentials
+.env
+*.env
+
+# Data files - too large for Git
+*.parquet
+*.csv
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
